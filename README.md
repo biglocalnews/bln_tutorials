@@ -10,6 +10,6 @@ bln upload -p <project_id> -k <api_key> *.csv  # automatically saves api key
 bln upload -p <project_id> *.csv               # uses saved api key
 
 # within git repo
-bln upload -p <project_id> -k <api_key> *.csv # automatically saves api key and project id
-bln upload *.csv                              # uses saved api key and project id
+git bln upload -p <project_id> -k <api_key> *.csv # automatically saves api key and project id
+git bln upload *.csv                              # uses saved api key and project id
 ```
